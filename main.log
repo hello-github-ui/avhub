@@ -1,0 +1,1 @@
+[2025-03-17 21:14:54,966][utils.logger][ERROR] - Failed to fetch HACG data: [Errno 2] No such file or directory: '/app/data/hacg.json'

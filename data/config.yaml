@@ -11,8 +11,8 @@ files:
 
 av_spider:
   source_url: "https://missav.ai/cn/search/"
-  proxy_url: "http://192.168.50.3:7890" # http or socks5 proxy
-  use_proxy: false
+  proxy_url: "http://127.0.0.1:7890" # http or socks5 proxy
+  use_proxy: true # 开启代理
 
 hacg_spider:
   source_url: "https://www.hacg.mov/wp/"
@@ -24,4 +24,4 @@ logging:
 hydra:
   run:
     dir: "."
-  output_subdir: null  
+  output_subdir: null
